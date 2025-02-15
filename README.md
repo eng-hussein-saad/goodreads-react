@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# Goodreads-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application that allows users to browse, search, and review books, built with React and integrated with a Node.js backend.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 📚 **Browse Books**: View books by categories, authors, and popularity.
+- 🔍 **Search**: Find books and authors easily.
+- ⭐ **Reviews & Ratings**: Users can rate and review books.
+- 📖 **User Library**: Keep track of books you want to read.
+- 🛒 **Subscription & Payments**: Upgrade to premium for additional features.
+- 🔑 **Authentication**: Secure login, registration, and Google OAuth support.
+- 📄 **Admin Dashboard**: Manage books, authors, and categories.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- React.js (with Vite for fast builds)
+- React Router
+- Axios for API calls
+- Material UI & Bootstrap for styling
+- React Query for data fetching
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- Node.js with Express.js
+- MongoDB & Mongoose ORM
+- JWT Authentication
+- Stripe for payment processing
 
-### `npm test`
+## Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js & npm installed
+- MongoDB running locally or in the cloud
 
-### `npm run build`
+### Clone Repository
+```sh
+git clone git@github.com:OmarSameh2001/goodreads-react.git
+cd goodreads-react
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Install Dependencies
+```sh
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Environment Variables
+Create a `.env` file in the root directory and add:
+```
+VITE_API_BASE_URL=https://your-backend-url
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run Development Server
+```sh
+npm run dev
+```
+Visit `http://localhost:5173` in your browser.
 
-### `npm run eject`
+## Deployment
+### Build Production Version
+```sh
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Deploy to Vercel or Netlify
+- Push your code to GitHub
+- Connect GitHub repository to Vercel/Netlify
+- Set environment variables in the platform dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribution
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a pull request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors
+- **Omar Sameh** - [GitHub](https://github.com/OmarSameh2001)
+- **Hussein Saad** - [GitHub](https://github.com/eng-hussein-saad)
+- **Aisha Amr** - [GitHub](https://github.com/aishaa205)
+- **Hoda Magdy** - [GitHub](https://github.com/Hoda-ArtCoder)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+This project is licensed under the MIT License.
 
-## Learn More
+---
+### 📬 Contact
+For issues or suggestions, open a GitHub issue or reach out to **your-email@example.com**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Coding! 🚀
