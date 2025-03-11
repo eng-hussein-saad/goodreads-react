@@ -1,6 +1,6 @@
 # Goodreads-React
-##Backend repo: https://github.com/eng-hussein-saad/goodreads-node
-##Host: https://goodreads-react-8o8l.vercel.app/
+## Backend repo: https://github.com/eng-hussein-saad/goodreads-node
+## Host: https://goodreads-react-8o8l.vercel.app/
 - A web application that allows users to browse, search, and review books, built with React and integrated with a Node.js backend.
 
 ## Features
